@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-clr: #1BBC9B;
+    --half-black: #1D1D1D;
+}
+.container {
+    max-width: 1440px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2,
+h4 {
+    font-family: "open sans";
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: "open sans";
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+p {
+    font-family: "open sans";
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+.btn {
+    font-family: "open sans";
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border: 0;
+    background: var(--primary-clr);
+}
+
+
+
+.icon_section>div {
+    gap: 110px;
+
+}
+
+/* .icon_section .btn {
+      pad
+    } */
+
+.spotlight_sec>div:first-child {
+    /* background-color: blue; */
+    width: 55%;
+}
+
+.highlight-box {
+    width: 45%;
+    background: #111;
+    color: white;
+    padding: 80px 60px;
+}
+
+.highlight-box input {
+    margin-bottom: 10px;
+}
+
+.highlight-badge {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: var(--primary-clr);
+    color: white;
+    padding: 10px;
+}
+
+
+.hot_property_section {
+    padding: 30px 0;
+}
+/* css by t */
+
+.ht-prop {
+    padding: 65px 0px;
+}
+
+h2.sec-head {
+    font-family: poppins;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 55px;
+}
+
+button.cta-btn {
+    padding: 16px;
+    width: 170px;
+    font-family: poppins;
+    font-size: 22px;
+    font-weight: 500;
+    background-color: #20B99D;
+    color: #fff;
+    border: none;
+    margin-bottom: 35px;
+}
+
+h3.prop-loc {
+    font-family: "poppins";
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+p.prop-desc {
+    color: #696969;
+    font-family: "open sans";
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+.desc {
+    margin-bottom: 30px;
+}
+
+a.cts-anch {
+    color: #20b99d;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+p.prp-cta-desc {
+    font-family: poppins;
+    font-size: 22px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.rght-sec {
+    border-left: 2px solid #C8C8C8;
+    padding-left: 100px;
+}
