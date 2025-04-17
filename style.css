@@ -163,7 +163,8 @@ p.prp-cta-desc {
     padding: 40px;
     border-radius: 90px;
     background-color: #FFFFFF;
-    width: fit-content;
+    width: 100%;
+    max-width: 160px;
     margin-bottom: 30px;
     text-align: center;
 }
